@@ -32,6 +32,7 @@ public class PalindromeChecker {
             return false;
         }
     }
+    // Testi kommentti (ilmari) //
 
     public static String reverseString(String input) {
         StringBuilder reversed = new StringBuilder();
