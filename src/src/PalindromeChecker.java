@@ -4,7 +4,7 @@ public class PalindromeChecker {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in); //Onnin kommentti!
+        Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
 
         String transformed = transformInput(input);
@@ -18,10 +18,7 @@ public class PalindromeChecker {
     }
 
     public static String transformInput(String input) {
-        input = input.toLowerCase();
-        input = input.replace(",", "");
-        input = input.replace("!", "");
-        return input;
+        return input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase(); // Onnin muutos
     }
 
     public static boolean checkPalindrome(String input) {
