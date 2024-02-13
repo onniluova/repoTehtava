@@ -18,7 +18,7 @@ public class PalindromeChecker {
     }
 
     public static String transformInput(String input) {
-        return input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase(); // Onnin muutos
+        return input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase(); // Onnin muutos 1
     }
 
     public static boolean checkPalindrome(String input) {
