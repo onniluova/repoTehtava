@@ -40,4 +40,5 @@ public class PalindromeChecker {
         }
         return reversed.toString();
     }
+    // Testi kommentti
 }
